@@ -1,3 +1,5 @@
+Chi tiết có trong file (có sơ đồ mạch và code): project.docx
+
 Video test:
 ```
 https://drive.google.com/file/d/1OStGOzRf52qThcOtZ_QncaLYNadeg3h2/view?usp=sharing
