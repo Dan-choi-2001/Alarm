@@ -54,7 +54,7 @@ void setup (){
    while (1);
  }
 
-  if (! rtc.isrunning()){
+ if (! rtc.isrunning()){
    Serial.print("RTC is NOT running!");
    Serial.println();
  }
