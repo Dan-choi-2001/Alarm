@@ -6,6 +6,7 @@ Project dưới đây mô tả cách sử dụng, code,… Bấm nút 1 (trái) 
 
 # Yêu cầu phần cứng
 •	Arduino
+
 •	LCD
 •	DS1307
 •	Biến trở 10k ôm
