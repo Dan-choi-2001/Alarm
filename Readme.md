@@ -33,7 +33,7 @@ Nối chân SCL và SDA của ds1307 lần lượt vào A5 và A4 (có thể n�
 
 Nối đầu dương của chuông vào DIGITAL 11, đầu âm nối vào GND. 
 
-3 nút bấm nối lần lượt vào digital 10, 9, 8 và đầu còn lại nối vào GND
+3 nút bấm nối lần lượt vào digital 10, 9, 8 và đầu còn lại nối vào GND (phầm mềm fritzing ko có nút 2 chân nên tui dùng tạm loại 4 chân :)))
 
 Nối các chân LCD như sau: chân VSS nối vào GND, VDD nối vào 5V, V0 nối vào chân giữa biến trở xoay (2 chân bên cạnh của biến trở xoay nối vào GND và 5V), RS nối vào chân 2, RW nối vào GND, E nối với chân 3, D4 D5 D6 D7 lần lượt nốt với chân 4 5 6 7, A nối với điện trở 220 ôm rồi nối vào 5V, K nối với GND
 
