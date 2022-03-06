@@ -47,17 +47,14 @@ Trước tiên phải setTime cho con DS1307 như sau:
 RTC_DS1307 rtc;
 char daysOfTheWeek[7][12] = {"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"};
 
-void setup ()
-{
+void setup (){
  Serial.begin(9600);
- if (! rtc.begin())
- {
+ if (! rtc.begin()){
    Serial.print("Couldn't find RTC");
    while (1);
  }
 
-  if (! rtc.isrunning())
- {
+  if (! rtc.isrunning()){
    Serial.print("RTC is NOT running!");
    Serial.println();
  }
@@ -65,11 +62,9 @@ void setup ()
    //rtc.adjust(DateTime(2014, 1, 21, 3, 0, 0));
 }
 
-void loop ()
-{
+void loop (){
    DateTime now = rtc.now();
-   if(now.hour()<=9)
-   {
+   if(now.hour()<=9){
      Serial.print("0");
      Serial.print(now.hour());
    }
@@ -77,8 +72,7 @@ void loop ()
     Serial.print(now.hour());
    }
    Serial.print(':');
-   if(now.minute()<=9)
-   {
+   if(now.minute()<=9){
      Serial.print("0");
      Serial.print(now.minute());
    }
@@ -86,8 +80,7 @@ void loop ()
     Serial.print(now.minute());
    }
    Serial.print(':');
-   if(now.second()<=9)
-   {
+   if(now.second()<=9){
      Serial.print("0");
      Serial.print(now.second());
    }
@@ -98,8 +91,7 @@ void loop ()
 
    Serial.print(daysOfTheWeek[now.dayOfTheWeek()]);
    Serial.print(",");
-   if(now.day()<=9)
-   {
+   if(now.day()<=9){
      Serial.print("0");
      Serial.print(now.day());
    }
@@ -107,8 +99,7 @@ void loop ()
     Serial.print(now.day());
    }
    Serial.print('/');
-   if(now.month()<=9)
-   {
+   if(now.month()<=9){
      Serial.print("0");
      Serial.print(now.month());
    }
@@ -116,8 +107,7 @@ void loop ()
     Serial.print(now.month());
    }
    Serial.print('/');
-   if(now.year()<=9)
-   {
+   if(now.year()<=9){
      Serial.print("0");
      Serial.print(now.year());
    }
