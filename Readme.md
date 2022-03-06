@@ -1,3 +1,5 @@
+28/07/2021
+
 Chi tiết có trong file project.docx (có sơ đồ mạch và code)
 
 Video test:
