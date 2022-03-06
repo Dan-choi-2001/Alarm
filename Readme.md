@@ -6,9 +6,9 @@
 Project dưới đây mô tả cách sử dụng, code,… Bấm nút 1 (trái) để đặt giờ báo thức, bấm nút 2 (giữa) để tăng giá trị của giờ, phút, bấm nút 3 (phải) để chuyển tiếp từ giờ sang phút hoặc để set báo thức hoặc là để tắt báo thức
 
 # Yêu cầu phần cứng
-•	Arduino
+•	Arduino Uno
 
-•	LCD
+•	LCD (loại như trong hình)
 
 •	DS1307
 
