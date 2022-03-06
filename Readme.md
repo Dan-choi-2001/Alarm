@@ -1,4 +1,4 @@
-Chi tiết có trong file (có sơ đồ mạch và code): project.docx
+Chi tiết có trong file project.docx (có sơ đồ mạch và code)
 
 Video test:
 ```
