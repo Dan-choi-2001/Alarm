@@ -25,7 +25,7 @@ Project dưới đây mô tả cách sử dụng, code,… Bấm nút 1 (trái) 
 •	Bảng mạch dài/ ngắn
 
 # Mạch
-
+![circuit](image/circuit.png)
 
 Chi tiết có trong file project.docx (có sơ đồ mạch và code)
 
