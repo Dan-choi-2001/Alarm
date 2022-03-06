@@ -40,7 +40,9 @@ Nối các chân LCD như sau: chân VSS nối vào GND, VDD nối vào 5V, V0 n
 # Code
 run.ino
 
+---
 ### Chi tiết có trong file project.docx (có code)
+---
 
 # Video test:
 ```
