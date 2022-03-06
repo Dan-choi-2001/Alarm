@@ -24,7 +24,7 @@ Project dưới đây mô tả cách sử dụng, code,… Bấm nút 1 (trái) 
 
 •	Bảng mạch dài/ ngắn
 
-# Mạch
+# Mạch (Vẽ bằng phần mềm Fritzing)
 ![circuit](image/circuit.png)
 
 Để có thể nối mạch, 
