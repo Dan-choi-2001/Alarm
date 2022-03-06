@@ -1,7 +1,7 @@
 28/07/2021
 
 # Giới thiệu
-Đồng hồ báo thức là một thiết bị quan trọng trong việc thông báo, hẹn giờ, thời gian nấu nướng, …
+Đồng hồ là một thiết bị quan trọng trong việc báo thức, hẹn giờ, thời gian nấu nướng, …
 
 Project dưới đây mô tả cách sử dụng, code,… Bấm nút 1 (trái) để đặt giờ báo thức, bấm nút 2 (giữa) để tăng giá trị của giờ, phút, bấm nút 3 (phải) để chuyển tiếp từ giờ sang phút hoặc để set báo thức hoặc là để tắt báo thức
 
