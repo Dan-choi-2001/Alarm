@@ -129,6 +129,7 @@ void loop ()
 }
 
 ```
+Sau đó chạy file này
 run.ino
 
 ---
