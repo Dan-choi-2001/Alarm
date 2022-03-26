@@ -119,10 +119,10 @@ void loop (){
 }
 
 ```
-Sau đó chạy file ```run.ino```
+Sau đó chạy file [run.ino](run.ino)
 
 ---
-### Chi tiết có trong file project.docx (có code)
+### Chi tiết có trong file [project.docx](project.docx) (có code)
 ---
 
 # Video test:
