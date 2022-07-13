@@ -125,16 +125,11 @@ Sau đó chạy file [run.ino](run.ino)
 
 Theo như hình vẽ ở trên, bấm nút 1 (trái) để đặt giờ báo thức, bấm nút 2 (giữa) để tăng giá trị của giờ, phút, bấm nút 3 (phải) để chuyển tiếp từ giờ sang phút hoặc để set báo thức hoặc là để tắt báo thức
 
----
-### Chi tiết có trong file [project.docx](project.docx) (có code)
----
-
 # Video test:
 ```
 https://drive.google.com/file/d/1OStGOzRf52qThcOtZ_QncaLYNadeg3h2/view?usp=sharing
 ```
 
-Bonus: Phát nhạc cướp biển caribe (cái buzzer kia bị thiếu miếng che nên tui dùng tạm giấy nhớ :))
-```
-https://drive.google.com/file/d/1Slwo3Yv5l4KFpzu6UUbngRPYP3HIPOag/view?usp=sharing
-```
+---
+### Chi tiết có trong file [project.docx](project.docx) (có code)
+---
