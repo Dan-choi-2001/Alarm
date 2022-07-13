@@ -3,14 +3,14 @@
 # Giới thiệu
 Đồng hồ là một thiết bị quan trọng trong việc báo thức, hẹn giờ, thời gian nấu nướng, …
 
-Project dưới đây mô tả cách sử dụng, code,… Bấm nút 1 (trái) để đặt giờ báo thức, bấm nút 2 (giữa) để tăng giá trị của giờ, phút, bấm nút 3 (phải) để chuyển tiếp từ giờ sang phút hoặc để set báo thức hoặc là để tắt báo thức
+Project dưới đây mô tả cách sử dụng, code,… 
 
 # Yêu cầu phần cứng
 •	Arduino Uno
 
 •	LCD (loại như trong hình)
 
-•	DS1307
+•	DS1307 (gần giống như trong hình)
 
 •	Biến trở 10k ôm
 
@@ -18,7 +18,7 @@ Project dưới đây mô tả cách sử dụng, code,… Bấm nút 1 (trái) 
 
 •	3 nút bấm
 
-•	1 chuông (gọi là buzzer)
+•	1 chuông (buzzer)
 
 •	Dây nối
 
@@ -37,7 +37,7 @@ Nối đầu dương của chuông vào DIGITAL 11, đầu âm nối vào GND.
 
 Nối các chân LCD như sau: chân VSS nối vào GND, VDD nối vào 5V, V0 nối vào chân giữa biến trở xoay (2 chân bên cạnh của biến trở xoay nối vào GND và 5V), RS nối vào chân 2, RW nối vào GND, E nối với chân 3, D4 D5 D6 D7 lần lượt nốt với chân 4 5 6 7, A nối với điện trở 220 ôm rồi nối vào 5V, K nối với GND
 
-# Code
+# Code thiết lập ban đầu
 Trước tiên phải setTime cho con DS1307 như sau:
 ```
 #include <Wire.h>
@@ -120,6 +120,10 @@ void loop (){
 
 ```
 Sau đó chạy file [run.ino](run.ino)
+
+# Hướng dẫn sử dụng
+
+Theo như hình vẽ ở trên, bấm nút 1 (trái) để đặt giờ báo thức, bấm nút 2 (giữa) để tăng giá trị của giờ, phút, bấm nút 3 (phải) để chuyển tiếp từ giờ sang phút hoặc để set báo thức hoặc là để tắt báo thức
 
 ---
 ### Chi tiết có trong file [project.docx](project.docx) (có code)
