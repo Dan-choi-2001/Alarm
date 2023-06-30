@@ -1,4 +1,4 @@
-28/07/2021
+28/07/2021 - IOT102 Personal project at FPT University
 
 # Giới thiệu
 Đồng hồ là một thiết bị quan trọng trong việc báo thức, hẹn giờ, thời gian nấu nướng, …
